@@ -1,15 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"], // Looks at your index.html
-  darkMode: 'class',          // Keeps your dark mode working
+  // WE ARE NAMING index.html EXPLICITLY HERE:
+  content: ["./index.html", "./src/**/*.{html,js}"], 
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        primary: '#D4AF37',       // Your Gold
+        primary: '#D4AF37',
         'primary-dark': '#b89a30',
-        navy: '#001f3f',          // Your Navy
+        navy: '#001f3f',
         'navy-light': '#002b55',
-        accent: '#e67e22',        // Your Orange
+        accent: '#e67e22',
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],

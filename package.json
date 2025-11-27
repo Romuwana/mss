@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --minify"
+    "dev": "tailwindcss -i ./src/input.css -o ./output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./output.css --minify"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Romuwana/mss#readme",
   "description": "",
   "devDependencies": {
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.18"
   }
 }
